@@ -1,0 +1,41 @@
+body {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.popup { 
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    background-color: black; 
+    height: 40%;
+    width: 20%;
+}
+
+#details {
+    text-align: center;
+    font-family: "Comfortaa", sans-serif; 
+    font-size: 25px;
+    color: #8957e5; 
+    padding: 50px 30px 30px 30px;
+}
+
+#reroute { 
+    padding-top: 50px;
+}
+
+#reroute button { 
+    display: flex;
+    margin: auto;
+    background-color: #00cfc8;
+    border: none; 
+    border-radius: 5px;
+    font-family: "Comfortaa", sans-serif; 
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 25px;
+}
