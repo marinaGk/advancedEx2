@@ -38,4 +38,5 @@ body {
     color: black;
     text-align: center;
     padding: 25px;
+    cursor: pointer;
 }
